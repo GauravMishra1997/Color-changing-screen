@@ -1,0 +1,53 @@
+html {
+    margin: 0;
+}
+span {
+    display:block;
+}
+.canvas {
+
+    margin: 100px auto 100px;
+    width: 80;
+    text-align: center;
+}
+.button{
+    width: 100px;
+    height: 100px;
+    border: solid rgb(14, 14, 14) 2px;
+    display: inline-block;
+}
+
+#grey {
+background-color: grey;
+}
+#white{
+    background-color: white;
+}
+#blue {
+    background-color: blue;
+}
+#yellow{
+    background-color: yellow;
+}
+
+.navbar {
+    background-color: #333; /* Background color of the navbar */
+    overflow: hidden; /* Ensure contents don't overflow */
+  }
+  
+  .navbar a {
+    float: left; /* Make the links float to the left */
+    display: block; /* Display links as block elements */
+    color: white; /* Text color */
+  
+    padding: 14px 16px; /* Padding around the links */
+    text-decoration: none; /* Remove underline */
+   align-items: center;
+  }
+  
+  .navbar a:hover {
+    background-color: #ddd; /* Background color on hover */
+    color: black; /* Text color on hover */
+  }
+  
+  
